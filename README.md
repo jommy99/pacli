@@ -2,10 +2,10 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![PyPI](https://img.shields.io/pypi/v/pacli.svg?style=flat-square)](https://pypi.python.org/pypi/pacli/)
-[![](https://img.shields.io/badge/python-3.5+-blue.svg)](https://www.python.org/download/releases/3.5.0/) 
+[![](https://img.shields.io/badge/python-3.5+-blue.svg)](https://www.python.org/download/releases/3.5.0/)
 
 
-This simple PeerAssets client is implemented using the [pypeerassets](https://github.com/PeerAssets/pypeerassets) Python library.
+This simple Pandacoin PeerAssets client is implemented using the [pypeerassets](https://github.com/jommy99/pypeerassets) Python library.
 This command line program is useful as companion utility during PeerAssets development and testing. It is built for console usage via intuitive and easy to learn set of commands.
 It stores the privkey in OS's native keystore, which is automatically unlocked upon logging into active user session.
 It handles only one key for now, until HD key support is implemented.
@@ -51,6 +51,10 @@ revert the settings to default
 > pacli config set $OPTION
 
 for example:
+
+`pacli config set network pnd`
+
+set the network to "pnd" (Pandacoin).
 
 `pacli config set network ppc`
 
